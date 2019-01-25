@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+	margin-top: 50px;
+	background-color: #E32626;
+}
+
+#color {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 32px;
+	font-weight: 300;
+}
+
+#count {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 64px;
+}
+
+button,
+button:focus {
+	touch-action: manipulation;
+}

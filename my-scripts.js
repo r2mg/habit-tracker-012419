@@ -1,14 +1,15 @@
-//set count
-if(localStorage.getItem("count") == null) {
+//create the count in the DB
+if (localStorage.getItem("count") == null) {
 	localStorage.setItem("count", 0)
 }
 
-//update count
+//update html to reflect the database
 function update() {
 	document.getElementById("count").innerHTML = localStorage.getItem("count");
 }
 
 update();
+
 
 //add one to count
 function plusOne() {
@@ -18,7 +19,7 @@ function plusOne() {
 
 //reset count
 function reset() {
-	if (confirm("Are you sure you want to reset?")) {
+	if (confirm("Reset? Bitch please!")) {
     	localStorage.setItem("count",0);
 		update();
 	}
